@@ -2,25 +2,7 @@
 
 ## S3
 
-1. Create a `.bat` file with the following contents:
-
-    ```bat
-    @echo off
-    set ACCESS_KEY=""
-    set SECRET_ACCESS_KEY=""
-    set CLINICAID=""
-    set ORIGIN=""
-
-    "C:\Program Files (x86)\WinSCP\WinSCP.com" ^
-      /log="%USERPROFILE%\redcheck_sync.log" /ini=nul ^
-      /command ^
-        "open s3://%ACCESS_KEY%:%SECRET_ACCESS_KEY%@s3.amazonaws.com/" ^
-        "option batch continue" ^
-        "keepuptodate %ORIGIN% /ftp-img-storage/clinicaid=%CLINICAID%" ^
-        "exit"
-
-    exit /b %ERRORLEVEL%
-    ```
+1. Set the values for teh variables in the [sync_ftp.cmd](./sync_ftp.cmd).
 
 2. Run the file with a double click.
 
@@ -47,23 +29,6 @@
 
 ### Automatic synchronization
 
-1. Create a file with the following contents:
-
-    ```bat
-    @echo off
-    set USERNAME=""
-    set CLINICAID=""
-    set ORIGIN=""
-
-    "C:\Program Files (x86)\WinSCP\WinSCP.com" ^
-      /log="%USERPROFILE%\redcheck_sync.log" /ini=nul ^
-      /command ^
-      "open %USERNAME%@sftp.redcheck.com.br -privatekey=C:\Path\to\file.ppk" ^
-      "option batch continue" ^
-      "keepuptodate %ORIGIN% /ftp-img-storage/clinicaid=%CLINICAID%" ^
-        "exit"
-
-    exit /b %ERRORLEVEL%
-    ```
+1. Set the values for teh variables in the [sync_s3.cmd](./sync_s3.cmd).
 
 2. Run the file with a double click.
