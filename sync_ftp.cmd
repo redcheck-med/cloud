@@ -3,14 +3,14 @@ set USERNAME=""
 set CLINICAID=""
 set ORIGIN=""
 set WINSCP_PATH="C:\Program Files (x86)\WinSCP\WinSCP.com"
-set SYNC_OPTIONS="-criteria=size -nopreservetime -nopermissions"
+set SYNC_OPTIONS="-nopreservetime -nopermissions"
 
 "%WINSCP_PATH" ^
     /log="%USERPROFILE%\redcheck_sync.log" /ini=nul ^
     /command ^
     "open %USERNAME%@sftp.redcheck.com.br -privatekey=C:\Path\to\file.ppk" ^
     "option batch continue" ^
-    "synchronize remote %ORIGIN% /ftp-img-storage/clinicaid=%CLINICAID% %SYNC_OPTIONS%" ^
+    "synchronize remote %ORIGIN% /ftp-img-storage/clinicaid=%CLINICAID% -criteria=size %SYNC_OPTIONS%" ^
     "keepuptodate %ORIGIN% /ftp-img-storage/clinicaid=%CLINICAID% %SYNC_OPTIONS%" ^
     "exit"
 
