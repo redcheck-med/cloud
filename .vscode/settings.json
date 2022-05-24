@@ -10,7 +10,8 @@
         "ERRORLEVEL",
         "keepuptodate",
         "redcheck",
-        "USERNAME"
+        "USERNAME",
+        "USERPROFILE"
     ],
     "scm.defaultViewMode": "tree"
 }

@@ -32,3 +32,7 @@
 1. Set the values for the variables in the [sync_s3.cmd](./sync_s3.cmd).
 
 2. Run the file with a double click.
+
+## Run on system startup
+
+Create a link for [run_sync.vbs](run_sync.vbs) and put it in `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
