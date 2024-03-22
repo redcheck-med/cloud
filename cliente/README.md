@@ -15,7 +15,7 @@ Configuração do WinSCP:
 
 Conforme figura abaixo:
 
-![WinSCP login](assets/winscp_login.png)
+![WinSCP login](./assets/winscp_login.png)
 
 ### 2. Sincronização automática
 
