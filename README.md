@@ -5,14 +5,14 @@
 - [Servidor](./servidor/README.md)
 - [Cliente](./cliente/README.md)
 
-> [!IMPORTANT]Importante
+> [!IMPORTANT] Importante
 > Para que o sistema funciona como previsto, o cliente deve realizar a separar os
 > arquivos em pastas por tipo de exame configuração, e fazer o mapeamento dessas pastas
 > na plataforma da RedCheck.
 
 ## Busco dos arquivos na plataforma
 
-> [!WARNING]Aviso
+> [!WARNING] Aviso
 > Para que a busca dos arquivos funciona na plataforma, nomes dos arquivos devem seguir a padronização:
 > `<Nome Sobrenome>_<LATERALIDADE>_<Data de nascimento>.ext`,
 >
