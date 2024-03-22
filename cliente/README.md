@@ -25,3 +25,8 @@ Conforme figura abaixo:
 ## Executar sincronização da inicialização do sistema
 
 Crie um link para o arquivo [run_sync.vbs](./run_sync.vbs) e coloque-o em `%USERPROFILE%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup`.
+
+## Referências
+
+- <https://superuser.com/questions/954950/run-a-script-on-start-up-on-windows-10>
+- <https://windowsloop.com/run-powershell-script-on-startup>
