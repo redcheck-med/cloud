@@ -1,7 +1,9 @@
 # Serviço de FTP RedCheck
 
-- Configuração no [servidor](./servidor/README.md)
-- Configuração no [cliente](./cliente/README.md)
+## Configuração
+
+- [Servidor](./servidor/README.md)
+- [Cliente](./cliente/README.md)
 
 > [!IMPORTANT]AVISO
 > Para que o sistema funciona como previsto, o cliente deve realizar a separar os
