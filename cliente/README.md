@@ -37,7 +37,7 @@ Crie um link para o arquivo [run_sync.vbs](./run_sync.vbs) e coloque-o em `%USER
     - Senha: ...
 3. Em "SERVIDOR FTP DE SAÍDA", marque a opção "IGUAL AO SERVIDOR DE ENTRADA".
 
-> [WARNING] Certifique-se que as configurações do nome do arquivo começam com `/`, que apontem para uma pasta.
+> [!WARNING] Certifique-se que as configurações do nome do arquivo começam com `/`, que apontem para uma pasta.
 > Exemplo: `/` + `Retinografia` + `/` + `pacientes.cpf`
 
 ## Referências
