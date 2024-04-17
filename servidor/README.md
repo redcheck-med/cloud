@@ -12,5 +12,6 @@ A aplicação responsável pelo servidor é o [FileMage](https://docs.filemage.i
 2. Preencha o formulário do usuário. Recomendações:
    1. Nome de usuário (username): usar email da clínica;
    2. Senha (password): evite uso de caracteres especiais.
-   3. *Home Directory* > *Path*: `/clinicaId=<ID da clínica no banco>`. Cerifique-se que o diretório existe no bucket [`ftp-img-storage`](https://s3.console.aws.amazon.com/s3/buckets/ftp-img-storage?region=us-east-1&bucketType=general&tab=objects).
+   3. *Home Directory* > *Path*: `/clinicaId=<ID da clínica no banco>`, e selecione *Full* em *Home Permissions*.
+ Cerifique-se que o diretório existe no bucket [`ftp-img-storage`](https://s3.console.aws.amazon.com/s3/buckets/ftp-img-storage?region=us-east-1&bucketType=general&tab=objects).
     ![alt text](user_form.png)
