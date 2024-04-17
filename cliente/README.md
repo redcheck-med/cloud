@@ -32,7 +32,7 @@ Crie um link para o arquivo [run_sync.vbs](./run_sync.vbs) e coloque-o em `%USER
 2. Preenche os dados de "SERVIDOR FTP DE ENTRADA":
     - Servidor: `ftp.redcheck.com.br`
     - Porta: 21
-    - Diretório de entrada: `/`
+    - Diretório de entrada: `/clinicaId=<consultar ID da clínica com a equipe técnica>`
     - Usuário: ...
     - Senha: ...
 3. Em "SERVIDOR FTP DE SAÍDA", marque a opção "IGUAL AO SERVIDOR DE ENTRADA".
