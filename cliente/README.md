@@ -40,7 +40,8 @@ Crie um link para o arquivo [run_sync.vbs](./run_sync.vbs) e coloque-o em `%USER
 > [!WARNING]
 > Certifique-se que as configurações do nome do arquivo começam com `/`, que apontem para uma pasta.
 > 
-> Exemplo: `/`  `Retinografia`  `/`  `pacientes.cpf`. Neste caso, deve-se usar `Retinografia` como pasta dos exames do tipo "Retinografia" nas configurações de mapeamento na plataforma RedCheck.
+> Exemplo: `/`  `Retinografia`  `/`  `pacientes.cpf`. Neste caso, deve-se usar `Retinografia` como pasta dos exames do tipo "Retinografia" nas configurações de mapeamento na plataforma RedCheck. Note que se cada imagem não tiver um identificador único, como por exemplo `/ Retinografia / <cpf>` as imagens irão override uma a outra, e
+apenas a última que for feito o upload estará disponível na plataforma.
 
 ## Referências
 
