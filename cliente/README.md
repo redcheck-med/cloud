@@ -2,25 +2,26 @@
 
 Para sincronização de pastas em computadores Windows recomendamos o uso do [WinSCP](https://winscp.net/eng/download.php).
 
-## 1. Configuration WinSCP
+## Configuration WinSCP
 
 ### Dados do servidor FTP
 
 Configuração do WinSCP:
-    - Host: `ftp.redcheck.com.br`
-    - Porta: 21
-    - Usuário: ...
-    - Senha: ...
-    - Encriptação: selecionar a opção "Sem criptografia"
+
+- Host: `ftp.redcheck.com.br`
+- Porta: 21
+- Usuário: ...
+- Senha: ...
+- Encriptação: selecionar a opção "Sem criptografia"
 
 Conforme figura abaixo:
 
 ![WinSCP login](./assets/winscp_login.png)
 
 ### Sincronização automática
-
-1. Verifique os valores da variáveis no script de sincronização [sync_ftp.cmd](./sync_ftp.cmd).
-2. Execute o script.
+1. 
+2. Verifique os valores da variáveis no script de sincronização [sync_ftp.cmd](./sync_ftp.cmd).
+3. Execute o script.
 
 ### Executar sincronização da inicialização do sistema
 
